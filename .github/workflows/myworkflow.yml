@@ -7,4 +7,9 @@ jobs:
     steps: 
       - name: Print Hello
         run: echo "Hello World"
+  second:
+    runs-on: macOS-latest
+    steps:
+    - name: List Files
+      run: ls
 
